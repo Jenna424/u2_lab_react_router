@@ -1,5 +1,5 @@
 import React from 'react'
-import genresArray from './data/genres'
+import genresArray from '../data/genres'
 import { useState, useEffect } from 'react'
 
 const Genres = () => {
