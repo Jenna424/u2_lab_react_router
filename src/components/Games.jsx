@@ -13,7 +13,7 @@ const Games = () => {
     <div>
       <h1>Games</h1>
       {games.map(game => (
-        <div>
+        <div key={game.id}>
           <h3>{game.name}</h3>
           <img src={game.background_image} alt={`${game.name} image`} />
           <p><b>Release Date</b>: {game.released}</p>
